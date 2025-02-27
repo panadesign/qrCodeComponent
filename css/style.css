@@ -1,0 +1,40 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-color: #d3deed;
+    font-family: "Outfit", serif;
+}
+
+section {
+    width: 320px;
+    height: 500px;
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+}
+
+section img {
+    width: 290px;
+    margin: 15px auto 0;
+    border-radius: 15px;
+}
+
+section .title {
+    font-size: 22px;
+    font-weight: 900;
+    color: hsl(218, 44%, 22%);
+    padding: 0 15px;
+}
+
+section .text {
+    color: hsl(216, 15%, 48%);
+    padding: 0 15px;
+}
